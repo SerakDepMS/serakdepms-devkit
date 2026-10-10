@@ -20,21 +20,39 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: ['python', 'javascript']
+        include:
+          - language: python
+            paths: python-data-science
+          - language: javascript-typescript
+            paths: web-development
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Check if source code exists
+        id: check_code
+        run: |
+          if [ -z "$(find ${{ matrix.paths }} -type f \( -name '*.py' -o -name '*.js' -o -name '*.ts' \) 2>/dev/null)" ]; then
+            echo "found=false" >> $GITHUB_OUTPUT
+            echo "⏭️ No source code found in ${{ matrix.paths }}"
+          else
+            echo "found=true" >> $GITHUB_OUTPUT
+            echo "✅ Source code found in ${{ matrix.paths }}"
+          fi
+
       - name: Initialize CodeQL
+        if: steps.check_code.outputs.found == 'true'
         uses: github/codeql-action/init@v3
         with:
           languages: ${{ matrix.language }}
 
       - name: Autobuild
+        if: steps.check_code.outputs.found == 'true'
         uses: github/codeql-action/autobuild@v3
 
       - name: Perform CodeQL Analysis
+        if: steps.check_code.outputs.found == 'true'
         uses: github/codeql-action/analyze@v3
         with:
           category: "/language:${{ matrix.language }}"
