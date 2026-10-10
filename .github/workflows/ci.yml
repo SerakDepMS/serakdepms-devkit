@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    name: Validate repository
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check for required files
+        run: |
+          test -f README.md || { echo "❌ README.md missing"; exit 1; }
+          test -f LICENSE || { echo "❌ LICENSE missing"; exit 1; }
+          test -f CONTRIBUTING.md || { echo "❌ CONTRIBUTING.md missing"; exit 1; }
+          test -f CODE_OF_CONDUCT.md || { echo "❌ CODE_OF_CONDUCT.md missing"; exit 1; }
+          echo "✅ All required files present"
+
+      - name: Check Python syntax
+        run: |
+          if [ -d "python-data-science" ] && [ "$(find python-data-science -name '*.py' | wc -l)" -gt 0 ]; then
+            find python-data-science -name "*.py" -exec python -m py_compile {} +
+            echo "✅ Python syntax check passed"
+          else
+            echo "⏭️ No Python files to check"
+          fi
+
+      - name: Check JavaScript syntax
+        run: |
+          if [ -d "web-development" ] && [ "$(find web-development -name '*.js' | wc -l)" -gt 0 ]; then
+            find web-development -name "*.js" -exec node --check {} \;
+            echo "✅ JavaScript syntax check passed"
+          else
+            echo "⏭️ No JavaScript files to check"
+          fi
+
+      - name: Check for leaked secrets (basic)
+        run: |
+          if grep -rE "(api[_-]?key|password|secret)[[:space:]]*[:=][[:space:]]*['\"][A-Za-z0-9]{16,}" --include="*.py" --include="*.js" --include="*.json" . ; then
+            echo "❌ Potential secret detected"
+            exit 1
+          fi
+          echo "✅ No obvious secrets detected"
+
+      - name: Success
+        run: echo "All checks passed"
