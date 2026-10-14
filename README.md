@@ -1,6 +1,6 @@
-# SerakDepMS DevKit
+# 🦅 SerakDepMS Studios DevKit
 
-> **Open-source developer toolkit by the SerakDepMS Studios community.**
+> **Open-source developer toolkit by SerakDepMS Studios (Serak Digital Mastery Studios Solutions).**
 
 A collaborative collection of tools, snippets, libraries, and boilerplates maintained by the community across 7 technical divisions.
 
@@ -8,7 +8,7 @@ A collaborative collection of tools, snippets, libraries, and boilerplates maint
 
 ## About
 
-**SerakDepMS DevKit** is a community-driven open-source project where developers from all skill levels contribute tools, utilities, and resources across multiple programming domains.
+**SerakDepMS Studios DevKit** is a community-driven open-source project maintained by **SerakDepMS Studios** (Serak Digital Mastery Studios Solutions), where developers from all skill levels contribute tools, utilities, and resources across multiple programming domains.
 
 Whether you're a beginner looking to make your first contribution or a senior developer sharing production-ready code, this is your place.
 
@@ -56,12 +56,12 @@ We welcome contributions from everyone. Please read our [CONTRIBUTING.md](./CONT
 
 ## 🌐 Ecosystem
 
-This project is part of the **SerakDepMS** ecosystem:
+This project is part of the SerakDepMS Studios ecosystem:
 
-- 🌐 [SerakDepMS (Empresa matriz)](https://serakdepms.github.io/SerakDepMS-Studios/)
-- 🎮 [Comunidad Gamer](https://serakdepms.github.io/Serakdep-MS-Clan-Official/)
-- 💻 [Comunidad Devs](https://serakdepms.github.io/Serakdep-MS-Devs-Official/)
-- 💬 [Discord](https://discord.gg/nphuM8K9aD)
+- 🌐 Portfolio: https://serakdepms.github.io/SerakDepMS-Studios/
+- 🎮 Gamer Community: https://serakdepms.github.io/Serakdep-MS-Clan-Official/
+- 💻 Devs Community: https://serakdepms.github.io/Serakdep-MS-Devs-Official/
+- 💬 Discord: https://discord.gg/nphuM8K9aD
 
 ---
 
@@ -77,4 +77,4 @@ Thanks to everyone who contributes to this project. 🦅
 
 ---
 
-© 2026 SerakDepMS Studios · Serak Digital Mastery & Solutions
+© 2026 SerakDepMS Studios · Serak Digital Mastery Studios Solutions

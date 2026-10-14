@@ -1,6 +1,6 @@
 # Python & Data Science Division
 
-Welcome to the **Python & Data Science** division of SerakDepMS DevKit.
+Welcome to the **Python & Data Science** division of **SerakDepMS Studios DevKit**.
 
 ## What goes here
 
@@ -41,4 +41,4 @@ python-data-science/
 - Visualization tools
 
 
-© 2026 SerakDepMS Studios
+© 2026 SerakDepMS Studios · Serak Digital Mastery Studios Solutions

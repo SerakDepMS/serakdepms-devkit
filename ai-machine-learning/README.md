@@ -1,6 +1,6 @@
 # AI & Machine Learning Division
 
-Welcome to the **AI & Machine Learning** division of SerakDepMS DevKit.
+Welcome to the **AI & Machine Learning** division of **SerakDepMS Studios DevKit**.
 
 ## What goes here
 
@@ -43,4 +43,4 @@ ai-machine-learning/
 - Fine-tuning guides
 
 
-© 2026 SerakDepMS Studios
+© 2026 SerakDepMS Studios · Serak Digital Mastery Studios Solutions

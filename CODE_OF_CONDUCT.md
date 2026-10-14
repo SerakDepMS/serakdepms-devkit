@@ -2,7 +2,7 @@
 
 ## Our Pledge
 
-We pledge to make participation in **SerakDepMS DevKit** a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity, level of experience, nationality, personal appearance, race, religion, or sexual identity.
+We pledge to make participation in **SerakDepMS Studios DevKit** a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity, level of experience, nationality, personal appearance, race, religion, or sexual identity.
 
 ## Our Standards
 
@@ -37,4 +37,4 @@ This Code of Conduct applies within all project spaces (GitHub, Discord, etc.) a
 
 ---
 
-© 2026 SerakDepMS Studios
+© 2026 SerakDepMS Studios · Serak Digital Mastery Studios Solutions

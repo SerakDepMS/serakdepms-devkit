@@ -1,6 +1,6 @@
 # Backend & APIs Division
 
-Welcome to the **Backend & APIs** division of SerakDepMS DevKit.
+Welcome to the **Backend & APIs** division of **SerakDepMS Studios DevKit**.
 
 ## What goes here
 
@@ -42,4 +42,4 @@ backend-apis/
 - Docker compose templates
 
 
-© 2026 SerakDepMS Studios
+© 2026 SerakDepMS Studios · Serak Digital Mastery Studios Solutions

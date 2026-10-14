@@ -1,6 +1,6 @@
 # Web Development Division
 
-Welcome to the **Web Development** division of SerakDepMS DevKit.
+Welcome to the **Web Development** division of **SerakDepMS Studios DevKit**.
 
 ## What goes here
 
@@ -41,4 +41,4 @@ web-development/
 - Accessibility helpers
 
 
-© 2026 SerakDepMS Studios
+© 2026 SerakDepMS Studios · Serak Digital Mastery Studios Solutions

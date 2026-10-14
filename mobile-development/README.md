@@ -1,6 +1,6 @@
 # Mobile Development Division
 
-Welcome to the **Mobile Development** division of SerakDepMS DevKit.
+Welcome to the **Mobile Development** division of **SerakDepMS Studios DevKit**.
 
 ## What goes here
 
@@ -42,4 +42,4 @@ mobile-development/
 - Native module wrappers
 
 
-© 2026 SerakDepMS Studios
+© 2026 SerakDepMS Studios · Serak Digital Mastery Studios Solutions

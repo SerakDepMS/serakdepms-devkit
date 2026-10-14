@@ -1,6 +1,6 @@
 # Cybersecurity & DevSecOps Division
 
-Welcome to the **Cybersecurity & DevSecOps** division of SerakDepMS DevKit.
+Welcome to the **Cybersecurity & DevSecOps** division of **SerakDepMS Studios DevKit**.
 
 ## What goes here
 
@@ -42,4 +42,4 @@ cybersecurity-devsecops/
 - CI/CD security configs
 
 
-© 2026 SerakDepMS Studios
+© 2026 SerakDepMS Studios · Serak Digital Mastery Studios Solutions

@@ -1,6 +1,6 @@
 # Game Development Division
 
-Welcome to the **Game Development** division of SerakDepMS DevKit.
+Welcome to the **Game Development** division of **SerakDepMS Studios DevKit**.
 
 ## What goes here
 
@@ -44,4 +44,4 @@ game-development/
 - Particle effects
 
 
-© 2026 SerakDepMS Studios
+© 2026 SerakDepMS Studios · Serak Digital Mastery Studios Solutions

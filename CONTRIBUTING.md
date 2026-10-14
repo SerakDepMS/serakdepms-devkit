@@ -1,4 +1,4 @@
-# Contributing to SerakDepMS DevKit
+# Contributing to SerakDepMS Studios DevKit
 
 Thank you for considering contributing!
 
@@ -83,4 +83,4 @@ Join our [Discord](https://discord.gg/nphuM8K9aD) and ask in the Devs channels.
 
 ---
 
-© 2026 SerakDepMS Studios
+© 2026 SerakDepMS Studios · Serak Digital Mastery Studios Solutions
